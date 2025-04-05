@@ -1,0 +1,63 @@
+@import './reset.css';
+
+@import './header.css';
+
+@import './hero.css';
+@import './faq.css';
+@import './advantages.css';
+@import './how-play.css';
+@import './description.css';
+@import './features.css';
+@import './gallery.css';
+@import './reviews.css';
+
+@import './footer.css';
+@import './pages.css';
+@import './cookies.css';
+
+:root {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+
+  color: #fff;
+  background-color: #009e60;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.container {
+  max-width: 375px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+.title-h2 {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-size: 38px;
+  text-align: center;
+  color: #ffd700;
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
