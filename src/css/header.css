@@ -12,11 +12,15 @@
   }
 }
 
+.scroll {
+  background-color: #009e5f96;
+}
+
 .header_container {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 38px 34px;
+  padding: 20px 34px;
   @media screen and (min-width: 1440px) {
     padding: 38px 80px;
   }

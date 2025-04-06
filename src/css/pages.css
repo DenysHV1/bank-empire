@@ -1,0 +1,71 @@
+.page-title {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-size: 38px;
+  text-align: center;
+  color: #ffd700;
+  margin-top: 114px;
+  margin-bottom: 28px;
+  @media screen and (min-width: 1440px) {
+    margin-top: 102px;
+    margin-bottom: 36px;
+  }
+}
+
+.page-section {
+  margin-bottom: 58px;
+  @media screen and (min-width: 1440px) {
+    margin-bottom: 140px;
+  }
+}
+
+.page-text-content {
+  padding: 0 20px;
+  @media screen and (min-width: 1440px) {
+    padding: 0 180px;
+  }
+}
+
+.page-h3-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.page-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.page-text-bold {
+  font-weight: 700;
+}
+
+.page-text-margin {
+  margin-bottom: 24px;
+}
+
+.page-list {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.page-list-item-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.page-list-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+}
