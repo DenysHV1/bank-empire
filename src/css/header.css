@@ -86,6 +86,9 @@
   max-width: 375px;
   gap: 34px;
   background-color: #ffd700;
+  @media screen and (max-height: 500px) {
+    gap: 16px;
+  }
 }
 
 .header-nav-mobile-item > a {
@@ -143,4 +146,12 @@
   .header-nav-pc-item:active {
     transform: scale(1.05);
   }
+}
+
+.header-nav-mobile-money {
+  position: absolute;
+  bottom: 30px;
+  right: 26px;
+  width: 169px;
+  height: 152px;
 }

@@ -1,0 +1,154 @@
+.how-play {
+  margin-bottom: 80px;
+  @media screen and (min-width: 1440px) {
+    margin-bottom: 140px;
+    padding: 0 80px;
+  }
+}
+
+.how-play_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  @media screen and (min-width: 1440px) {
+    gap: 36px;
+  }
+}
+
+.how-play_content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  @media screen and (min-width: 1440px) {
+    gap: 20px;
+    flex-direction: row;
+  }
+}
+
+.how-play_img {
+  width: 100%;
+  border-radius: 40px;
+  overflow: hidden;
+  order: -1;
+  @media screen and (min-width: 1440px) {
+    width: 630px;
+    order: 1;
+  }
+}
+
+.how-play_img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.how-play_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 0 20px;
+  width: 100%;
+  @media screen and (min-width: 1440px) {
+    padding: 0;
+    width: 630px;
+  }
+}
+
+.how-play_item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 6px;
+  border-radius: 40px;
+  padding: 20px;
+  width: 335px;
+  height: 127px;
+  background-color: #21c082;
+  @media screen and (min-width: 1440px) {
+    gap: 12px;
+    width: 197px;
+    height: 165px;
+  }
+}
+
+.how-play_item1 {
+  @media screen and (min-width: 1440px) {
+    align-self: flex-end;
+  }
+}
+
+.how-play_item2 {
+  @media screen and (min-width: 1440px) {
+    align-self: flex-end;
+    margin-right: 108px;
+  }
+}
+
+.how-play_item3 {
+  @media screen and (min-width: 1440px) {
+    align-self: flex-end;
+    margin-right: 216px;
+  }
+}
+
+.how-play_item4 {
+  @media screen and (min-width: 1440px) {
+    align-self: flex-end;
+    margin-right: 325px;
+  }
+}
+
+.how-play_item5 {
+  @media screen and (min-width: 1440px) {
+    align-self: flex-start;
+  }
+}
+
+.how-play_item > h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #ffd700;
+}
+
+.how-play_item > p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #fff;
+}
+
+.how-play_man {
+  display: none;
+  @media screen and (min-width: 1440px) {
+    display: block;
+    position: absolute;
+    top: 139px;
+    left: 0;
+    width: 269px;
+    height: 404px;
+  }
+}
+
+.how-play_money {
+  display: none;
+  @media screen and (min-width: 1440px) {
+    display: block;
+    position: absolute;
+    bottom: -27px;
+    left: 350px;
+    width: 388px;
+    height: 349px;
+  }
+}
