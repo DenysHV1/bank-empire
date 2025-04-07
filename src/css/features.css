@@ -1,0 +1,124 @@
+.features {
+  scroll-margin-top: 100px;
+  margin-bottom: 80px;
+  overflow-x: hidden;
+  @media screen and (min-width: 1440px) {
+    margin-bottom: 73px;
+    padding-bottom: 135px;
+    background-image: url(../img/features/features-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.swiper-features {
+  overflow: visible !important;
+  display: flex;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.features_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  padding: 0 20px;
+  @media screen and (min-width: 1440px) {
+    gap: 36px;
+    padding: 0 80px;
+  }
+}
+
+.swiper-slide-features {
+  border-radius: 40px;
+  background-color: #21c082;
+  padding: 28px 22px;
+  min-height: 348px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.swiper-slide-features > img {
+  width: 157px;
+  height: 157px;
+  object-fit: cover;
+  margin-bottom: 8px;
+  margin: 0 auto;
+}
+
+.swiper-slide-features > h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #ffd700;
+  max-width: 140px;
+  margin: 0 auto;
+  margin-bottom: 14px;
+}
+
+.swiper-slide-features > p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #fff;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  cursor: pointer;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  width: 64px !important;
+  height: 64px;
+  top: auto !important;
+  bottom: -60px !important;
+  display: none !important;
+}
+
+.swiper-button-prev {
+  @media screen and (min-width: 1440px) {
+    left: 566px !important;
+  }
+}
+
+.swiper-button-next {
+  @media screen and (min-width: 1440px) {
+    left: 650px !important;
+  }
+}
+
+.swiper-button-prev > img,
+.swiper-button-next > img {
+  width: 64px !important;
+  height: 64px;
+}
+
+@media screen and (min-width: 1440px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    pointer-events: auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: flex !important;
+  }
+}

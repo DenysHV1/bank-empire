@@ -1,6 +1,7 @@
 .advantages {
   margin-bottom: 80px;
   padding: 0 20px;
+  scroll-margin-top: 120px;
   @media screen and (min-width: 1440px) {
     margin-bottom: 140px;
     padding: 0 80px;

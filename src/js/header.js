@@ -20,11 +20,11 @@ const mobileMenu = () => {
     });
   });
 
-  if (window.innerWidth < 1440) {
+  // if (window.innerWidth < 1440) {
     window.addEventListener('scroll', () => {
       header.classList.toggle('scroll', window.scrollY > 0);
     });
-  }
+  // }
 };
 
 export default mobileMenu;
