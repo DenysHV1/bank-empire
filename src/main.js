@@ -9,3 +9,6 @@ reviewsSwiper();
 
 import gallerySwiper from './js/gallery-swiper.js';
 gallerySwiper();
+
+import {faq} from './js/faq.js';
+faq();

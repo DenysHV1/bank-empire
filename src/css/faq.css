@@ -1,0 +1,134 @@
+.faq {
+  scroll-margin-top: 100px;
+  margin-bottom: 58px;
+  @media screen and (min-width: 1440px) {
+    margin-bottom: 140px;
+  }
+}
+
+.faq-inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  padding: 0 20px;
+  @media screen and (min-width: 1440px) {
+    gap: 36px;
+  }
+}
+
+.faq_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  @media screen and (min-width: 1440px) {
+    gap: 28px;
+    width: 630px;
+    min-width: 630px;
+  }
+}
+
+.faq-item {
+  width: 100%;
+}
+
+.faq-question-button-js {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 4px;
+  border: 1px solid #ffd700;
+  border-radius: 40px;
+  padding: 10px;
+  @media screen and (min-width: 1440px) {
+    padding: 14.5px 10px;
+  }
+}
+
+.faq_question {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffd700;
+  text-align: start;
+}
+
+.svg-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+}
+
+.svg-container > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: none;
+  color: #fff;
+  border: 0px solid #fff;
+  border-radius: 40px;
+  padding: 0;
+}
+
+.faq-answer.open {
+  max-height: 500px;
+  transition: max-height 500ms cubic-bezier(1, 0.5, 0.5, 1);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px;
+}
+
+
+.faq-coins1{
+  display: none;
+  @media screen and (min-width: 1440px){
+    display: block;
+    position: absolute;
+    top: 248px;
+    left: 54px;
+    width: 245px;
+    max-width: 245px;
+    height: 246px;
+  }
+}
+
+.faq-coins1 > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.faq-coins2{
+  display: none;
+  @media screen and (min-width: 1440px){
+    display: block;
+    position: absolute;
+    top: 100px;
+    right: 54px;
+    width: 144px;
+    height: 144px;
+  }
+}
+
+.faq-coins2 > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
