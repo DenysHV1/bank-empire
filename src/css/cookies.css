@@ -1,0 +1,82 @@
+.cookies-section {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 999;
+  width: 100%;
+  background: #fff;
+}
+
+.cookies-container {
+  padding: 16px 38px 16px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  @media screen and (min-width: 1440px) {
+    padding: 20px 34px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.cookies-text {
+  width: 100%;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  color: #009e60;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 24px;
+  @media screen and (min-width: 1440px) {
+    width: 595px;
+    margin-bottom: 0;
+  }
+}
+
+.cookies-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  @media screen and (min-width: 1440px) {
+    flex-direction: row;
+    gap: 26px;
+  }
+}
+
+.cookies-button {
+  width: 295px;
+  height: 78px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: opacity 300ms ease;
+}
+
+.cookies-button:hover {
+  opacity: 0.8;
+}
+
+.cookies-accept-js {
+  background-color: #009e60;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+}
+
+.cookies-decline-js {
+  border: 1px solid #009e60;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #009e60;
+  font-family: "Raleway", sans-serif;
+}

@@ -12,3 +12,6 @@ gallerySwiper();
 
 import {faq} from './js/faq.js';
 faq();
+
+import {cookiePolicy} from './js/cookiesPolicy.js';
+cookiePolicy();
