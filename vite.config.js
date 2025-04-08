@@ -23,8 +23,15 @@ export default defineConfig(({ command }) => {
             }
           },
           entryFileNames: 'commonHelpers.js',
+          assetFileNames: assetInfo => {
+            if (assetInfo.name.endsWith('.css')) {
+              return 'assets/css/[name][extname]';
+            }
+            return 'assets/[name][extname]';
+          },
         },
       },
+      assetsInlineLimit: 0,
     },
     plugins: [
       injectHTML(),
@@ -52,6 +59,6 @@ export default defineConfig(({ command }) => {
         },
       },
     },
-    base: '/'
+    base: '/',
   };
 });
