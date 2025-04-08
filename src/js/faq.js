@@ -7,11 +7,8 @@ export const faq = () => {
 
       questionsBtn.forEach(btns => {
         [...btns.children].forEach(item => {
-            item.style.backgroundColor = 'transparent';
-            item.style.borderColor = 'black';
             [...item.children].forEach(svg => {
-              svg.style.transform = 'rotate(0deg)';
-              svg.style.stroke = 'black';
+              svg.style.transform = 'rotate(90deg)';
             });
         });
       });
@@ -24,7 +21,7 @@ export const faq = () => {
         btn.nextElementSibling.classList.add('open');
         [...btn.children].forEach(item => {
             [...item.children].forEach(svg => {
-              svg.style.transform = 'rotate(90deg)';
+              svg.style.transform = 'rotate(0deg)';
             });
         });
       }

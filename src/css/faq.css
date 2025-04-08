@@ -132,3 +132,7 @@
   height: 100%;
   object-fit: cover;
 }
+
+.faq-btn_img{
+  transform: rotate(90deg);
+}
