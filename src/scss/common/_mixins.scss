@@ -1,0 +1,29 @@
+@mixin on-desktop {
+  @media (min-width: $desktop) {
+    @content;
+  }
+}
+
+/// Функція stroke — генерує багато тіней (імітація обводки)
+@function stroke($stroke, $color) {
+  $shadow: (
+  );
+$from: $stroke * -1;
+
+@for $i from $from through $stroke {
+  @for $j from $from through $stroke {
+
+    // Пропускаємо центр (0,0), щоб сам текст був "чистим"
+    @if not ($i ==0 and $j ==0) {
+      $shadow: append($shadow, $i * 1px $j * 1px 0 $color, comma);
+    }
+  }
+}
+
+@return $shadow;
+}
+
+/// Міксін stroke — застосовує результат функції
+@mixin stroke($stroke, $color) {
+  text-shadow: stroke($stroke, $color);
+}
