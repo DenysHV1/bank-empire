@@ -59,6 +59,6 @@ export default defineConfig(({ command }) => {
         },
       },
     },
-    base: '/',
+    base: './',
   };
 });
