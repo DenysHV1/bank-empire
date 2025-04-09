@@ -4,7 +4,7 @@
   @media screen and (min-width: 1440px) {
     margin-bottom: 73px;
     padding-bottom: 135px;
-    background-image: url(/public/img/features/features-bg.png);
+    background-image: url(./public/img/features/features-bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
