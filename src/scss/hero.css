@@ -1,12 +1,12 @@
 .hero {
-  background-image: url(../public/img/hero/hero-mobile-bg.jpg);
+  background-image: url(../img/hero/hero-mobile-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 110vh;
   width: 100%;
   @media (min-width: 1440px) {
-    background-image: url(../public/img/hero/hero-pc-bg.jpg);
+    background-image: url(../img/hero/hero-pc-bg.jpg);
     margin-top: 100px;
   }
 }
