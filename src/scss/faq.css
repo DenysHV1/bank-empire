@@ -1,8 +1,12 @@
 .faq {
   scroll-margin-top: 100px;
-  margin-bottom: 58px;
+  /* margin-bottom: 58px; */
+  /* height: 63vh; */
+  min-height: 623px;
   @media screen and (min-width: 1440px) {
-    margin-bottom: 140px;
+    /* margin-bottom: 140px; */
+    /* height: 53vh; */
+    min-height: 630px;
   }
 }
 

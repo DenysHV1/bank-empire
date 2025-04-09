@@ -3,7 +3,7 @@
   overflow-x: hidden;
   @media screen and (min-width: 1440px) {
     margin-bottom: 140px;
-    height: 110vh;
+    min-height: 800px;
   }
 }
 
