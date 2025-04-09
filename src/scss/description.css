@@ -5,7 +5,7 @@
     margin: 0;
     margin-bottom: 140px;
     padding: 140px 80px 40px 80px;
-    background-image: url(../img/description/bg.png);
+    background-image: url(/public/img/description/bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

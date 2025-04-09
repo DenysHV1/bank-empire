@@ -32,7 +32,9 @@ export default defineConfig(({ command }) => {
         },
       },
       assetsInlineLimit: 0,
+      copyPublicDir: true,
     },
+    publicDir: 'src/public',
     plugins: [
       injectHTML(),
       FullReload(['./src/**/**.html']),
